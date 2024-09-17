@@ -1,0 +1,101 @@
+/* ! Disabling for Storybook */
+.slide {
+  zoom: 0.5;
+}
+
+
+/* We never use time so hide from date picket */
+#control-date-time, 
+#control-proposal_date-time {
+  display: none !important;
+}
+
+select {
+  text-transform: capitalize !important;
+}
+
+/* Adding border to show differences in images */
+.sb-wgt-image {
+  width: 100%;
+  height: 400px;
+}
+.sb-wgt-image #element-image {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* product grid story */
+#sb-product-grid-wrapper {
+  height: 400px;
+  width: 100%;
+}
+#sb-product-grid-wrapper .product-list-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: baseline;
+}
+#sb-product-grid-wrapper .product-list-container elem-product-list {
+  width: 300px;
+}
+
+/* Email widget story */
+.sb-email-Include.Exclude {
+  display: flex;
+}
+
+.sb-email-Include.Exclude wgt-email-includes,
+.sb-email-Include.Exclude wgt-email-excludes {
+  width: 50%;
+}
+
+.sb-email-Include.Exclude
+  wgt-email-includes
+  wgt-email-audience
+  #wgt-email-audience
+  #widget-list,
+.sb-email-Include.Exclude
+  wgt-email-excludes
+  wgt-email-audience
+  #wgt-email-audience
+  #widget-list {
+  max-height: 100%;
+}
+
+/* .constraint {
+    position: relative;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.wgt-image {
+    border: 1px grey solid;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.wgt-image img {
+    align-items: center;
+    max-height: 100%;
+    max-width: 100%;
+   
+} */
+
+/* Budget page stacked slide viewer */
+.sb-budget .page.budget {
+  display: none;
+}
+.sb-budget.show-1 .page.budget.page-1 {
+  display: block;
+}
+.sb-budget.show-2 .page.budget.page-2 {
+  display: block;
+}
+.sb-budget-page {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}

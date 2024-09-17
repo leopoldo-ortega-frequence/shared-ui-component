@@ -1,0 +1,37 @@
+{
+  "name": "wc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build-static-webapp": "expo build:web",
+    "deploy": "npm run build-storybook && netlify deploy --dir=storybook-static --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "@emotion/react": "^11.13.3",
+    "@eslint/js": "^9.6.0",
+    "@storybook/addon-essentials": "^8.1.5",
+    "@storybook/addon-interactions": "^8.1.5",
+    "@storybook/addon-links": "^8.1.5",
+    "@storybook/blocks": "^8.1.5",
+    "@storybook/html": "^8.1.5",
+    "@storybook/html-webpack5": "^8.1.5",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "eslint": "^9.6.0",
+    "globals": "^15.8.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "storybook": "^8.1.5"
+  },
+  "dependencies": {
+    "@storybook/types": "^8.2.1",
+    "@types/jquery": "^3.5.30"
+  }
+}

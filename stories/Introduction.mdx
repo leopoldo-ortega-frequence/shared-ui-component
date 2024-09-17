@@ -1,0 +1,81 @@
+---
+title: SDS Outline
+date: "Last Updated: Aug 23, 2024"
+---
+
+# Slides Design System
+
+## Important Links:
+
+- [StoryBook](https://sdsstorybook.netlify.app/)
+- [Figma File](https://www.figma.com/design/41o21MxSO5x0CJkjgaepE4/)
+- [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
+- [Past Rules Doc: SDS Rules and Guidelines](#)
+- [New ideas and processes: Slides Team | New Process Review](#)
+
+## Introduction
+
+This will serve as the place to understand the Slides Design System.
+The scope of this document is to highlight the rules, implementation, and testing of the new slides development system.
+
+## Motivation
+
+As slides continues to grow, we found that there are some aspects of the current slides development process that are not easy to scale. Actions like creating duplicate slides, creating new F templates, and maintaining design consistency have been an ongoing issue.
+
+This new system will alleviate those points while establishing a system in which new slides and slide components can be quickly built and tested.
+
+## What Are Web Components and Why?
+
+We needed a method of modularizing reusable blocks of code and logic. Due to the limitations of RFP, we cannot use third-party systems like React or Angular.
+
+Web Components are a vanilla JavaScript solution that enables us to achieve the goals of creating components that can be reused throughout the development of slides.
+
+## Widget vs Component
+
+A widget defines a component that can be used by itself, examples include a battery bar widget, a donut chart widget, and a TV/Radio schedule chart widget.
+
+- Widgets can contain other widgets.
+- An element is usually a smaller reusable component that cannot be used as a standalone component. An example would be a list item with a custom bullet point. While these get used in multiple widgets, they themselves cannot be used as an independent component.
+
+## Base vs Preset Widgets
+
+A Base widget is a widget that can 
+
+## Design Rules
+
+SDS will place a bigger emphasis on design quality than the current process thanks to StoryBook.
+
+As long as Developers use the Figma assets and generated CSS, the slides and widgets should behave as expected and be aligned with the Figma design files.
+
+Nonetheless, here are some rules to ensure that the development of the widgets captures the designer’s intention:
+
+- All numeric and color values should be tied to a CSS variable.
+- We will use Flexbox as the primary spacing system.
+  - There isn’t anything wrong with Grid, but the designs and behaviors are built with Flexbox in mind.
+- Separation of Slides level styling and Component level styling.
+  - Components are meant to be standalone, therefore they will have their own set of styles.
+  - If we need to adjust a component style to better fit a slide, it is done at the slide level.
+  - Slides (e.g., Overview, Print, Addressable) will have their own set of styles separate from the components.
+
+## Development Rules
+
+### Widgets & Elements
+
+- Widgets should be as dumb as possible. We want to put the decision-making and agency behind designers and developers.
+- Widgets should not process data, read-only.
+- Only wrapper widgets can map through data to render to child widgets.
+- Widgets by default are ‘base’ widgets when created, meaning that they must be usable in different scenarios.
+- If a widget needs to be more specific.
+
+### Rules for Slides & Slide Variations
+
+[content]
+
+### Misc Rules
+
+- Any deviations from the design when developing to be communicated with the rest of the team. This also includes PDF changes.
+- [Add notes on checking if Figma is using Fill and Hug]
+
+## Examples
+
+[content]
