@@ -7,7 +7,7 @@ import {
 
 export default {
   title:
-    "Frequence/Base/Widgets/wgt-schedule-chart/Elements/elem-schedule-time-block",
+    "Frequence/Widgets/wgt-schedule-chart/Elements/elem-schedule-time-block",
   tags: ["autodocs"],
   render: ({ icon, strength, day }) => {
     const map = {};

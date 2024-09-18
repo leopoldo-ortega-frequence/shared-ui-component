@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine";
 
 export default {
-  title: "Frequence/Appendix Geofence/Widgets/wgt-geo-appendix",
+  title: "Frequence/Widgets/wgt-geo-appendix",
   tags: ["autodocs"],
   render: ({ location_count }) => {
     const data = [

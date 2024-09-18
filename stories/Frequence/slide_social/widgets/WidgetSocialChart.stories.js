@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/Social/Widgets/wgt-social-chart",
+  title: "Frequence/Widgets/wgt-social-chart",
   tags: ["autodocs"],
   render: ({ widget_title, percent_strength, clicks }) => {
     const props = {

@@ -2,7 +2,7 @@ import { createWidget } from "../../helper/renderEngine.js";
 import { emailLists } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Email/Widget/wgt-email-includes",
+  title: "Frequence/Widgets/wgt-email-includes",
   tags: ["autodocs"],
   render: ({ audience_count }) => {
     let list = [];

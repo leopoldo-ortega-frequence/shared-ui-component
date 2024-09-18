@@ -2,7 +2,7 @@ import { createWidget } from "../../helper/renderEngine.js";
 import { overviewData, targetGeoMaps } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Overview/Widgets/wgt-geo-data",
+  title: "Frequence/Widgets/wgt-geo-data",
   tags: ["autodocs"],
   render: ({
     map,

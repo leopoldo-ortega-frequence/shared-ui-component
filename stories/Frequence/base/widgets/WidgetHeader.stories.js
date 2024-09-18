@@ -1,5 +1,5 @@
 export default {
-  title: "Frequence/Base/Widgets/wgt-header",
+  title: "Frequence/Widgets/wgt-header",
   tags: ["autodocs"],
   render: ({ slide_title }) => /*html*/ `
         <div class="slide" style="width: 1653px">

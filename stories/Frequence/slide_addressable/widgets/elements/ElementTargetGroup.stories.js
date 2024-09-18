@@ -1,8 +1,7 @@
 import { createWidget } from "../../../helper/renderEngine.js";
 
 export default {
-  title:
-    "Frequence/Addressable/Widgets/wgt-target-segments/Elements/elem-target-group",
+  title: "Frequence/Widgets/wgt-target-segments/Elements/elem-target-group",
   tags: ["autodocs"],
   render: ({ title, alignment, item_count, show_long_text }) => {
     const data = [

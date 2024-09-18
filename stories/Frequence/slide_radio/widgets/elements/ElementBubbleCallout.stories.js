@@ -1,8 +1,7 @@
 import { createWidget } from "../../../helper/renderEngine.js";
 
 export default {
-  title:
-    "Frequence/Radio/Widgets/wgt-bubble-group/Elements/elem-bubble-callout",
+  title: "Frequence/Widgets/wgt-bubble-group/Elements/elem-bubble-callout",
   tags: ["autodocs"],
   render: ({ callout_text }) => {
     return /*html*/ `

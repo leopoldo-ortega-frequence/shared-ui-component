@@ -2,8 +2,7 @@ import { createWidget } from "../../../helper/renderEngine";
 import { ALL_ICONS } from "../../../../../rfp/js/assets.js";
 
 export default {
-  title:
-    "Frequence/Base/Widgets/wgt-schedule-chart/Elements/elem-schedule-data",
+  title: "Frequence/Widgets/wgt-schedule-chart/Elements/elem-schedule-data",
   tags: ["autodocs"],
   render: ({
     schedule_data_1,

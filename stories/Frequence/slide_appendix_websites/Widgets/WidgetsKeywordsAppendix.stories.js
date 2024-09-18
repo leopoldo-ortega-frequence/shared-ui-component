@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine";
 
 export default {
-  title: "Frequence/Appendix Websites/Widgets/wgt-websites-appendix",
+  title: "Frequence/Widgets/wgt-websites-appendix",
   tags: ["autodocs"],
   render: ({ website_count }) => {
     const data = [

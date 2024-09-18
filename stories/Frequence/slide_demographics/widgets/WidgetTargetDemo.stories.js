@@ -3,7 +3,7 @@ import { DEMO_ICONS } from "../../../../rfp/js/assets.js";
 import { regionDemographics } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Target Demographics/Widgets/wgt-target-demo",
+  title: "Frequence/Widgets/wgt-target-demo",
   tags: ["autodocs"],
   render: ({ demo_selected, region }) => {
     // build the object here

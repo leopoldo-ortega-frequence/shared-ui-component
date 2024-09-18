@@ -4,7 +4,7 @@ import { ALL_ICONS } from "../../../../rfp/js/assets.js";
 import { dummyScheduleHeatMap } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Base/Widgets/wgt-schedule-chart",
+  title: "Frequence/Widgets/wgt-schedule-chart",
   tags: ["autodocs"],
   render: (args) => {
     // build the object here

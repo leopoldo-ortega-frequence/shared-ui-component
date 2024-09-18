@@ -1,7 +1,7 @@
 import { createWidget } from "../../../helper/renderEngine";
 
 export default {
-  title: "Frequence/Budget/Widgets/wgt-budget-table/Elements/elem-budget-row",
+  title: "Frequence/Elements/wgt-budget-table/Elements/elem-budget-row",
   tags: ["autodocs"],
   render: (args) => {
     const props = {

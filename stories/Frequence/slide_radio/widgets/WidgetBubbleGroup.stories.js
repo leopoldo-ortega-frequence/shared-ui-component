@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/Radio/Widgets/wgt-bubble-group",
+  title: "Frequence/Widgets/wgt-bubble-group",
   tags: ["autodocs"],
   render: ({ count }) => {
     return /*html*/ `

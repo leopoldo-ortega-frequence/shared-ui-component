@@ -2,8 +2,7 @@ import { PRODUCTS } from "../../../../../rfp/js/assets.js";
 import { createWidget } from "../../../helper/renderEngine.js";
 
 export default {
-  title:
-    "Frequence/Product Overview/Widgets/wgt-product-grid/Elements/elem-product-icon",
+  title: "Frequence/Widgets/wgt-product-grid/Elements/elem-product-icon",
   tags: ["autodocs"],
   render: ({ name, size, icon }) => {
     const props = {

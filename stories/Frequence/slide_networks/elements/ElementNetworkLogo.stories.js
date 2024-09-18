@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/CTV OTT/Widget/wgt-network-grid/Elements/elem-network-logo",
+  title: "Frequence/Elements/wgt-network-grid/Elements/elem-network-logo",
   tags: ["autodocs"],
   render: ({ network_name, network_strength, show_strength, background }) => {
     const props = {

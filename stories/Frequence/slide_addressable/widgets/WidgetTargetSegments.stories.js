@@ -3,7 +3,7 @@ import { addressableData } from "../../../../rfp/data/data.js";
 import { dummySingleAddressableData } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Addressable/Widgets/wgt-target-segments",
+  title: "Frequence/Widgets/wgt-target-segments",
   tags: ["autodocs"],
   render: ({ widget_title, group_count, show_long_text }) => {
     const data = [

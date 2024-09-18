@@ -1,7 +1,7 @@
 import { imgMap } from "../../helper/imgMap";
 
 export default {
-  title: "Frequence/Base/Widgets/wgt-image",
+  title: "Frequence/Widgets/wgt-image",
   tags: ["autodocs"],
   render: ({ type, image, img_fill }) => {
     //   return createWidget('elem-image', props);

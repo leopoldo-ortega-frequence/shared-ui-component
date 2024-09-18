@@ -3,7 +3,7 @@ import { LIST_ICONS } from "../../../../rfp/js/assets.js";
 import { targetAudienceInterests } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Audience Interests/Widgets/wgt-target-interests",
+  title: "Frequence/Widgets/wgt-target-interests",
   tags: ["autodocs"],
   render: ({ interest_category, extra_sub_interests }) => {
     const data = [...Array(5).fill("interest-name")];

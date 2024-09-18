@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/Reach & Frequency/Widgets/wgt-reach-frequency",
+  title: "Frequence/Widgets/wgt-reach-frequency",
   tags: ["autodocs"],
   render: ({ widget_title, reach_percent, frequency }) => {
     const props = {

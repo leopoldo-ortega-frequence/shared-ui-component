@@ -2,7 +2,7 @@ import { createWidget } from "../../helper/renderEngine.js";
 import { networksData } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/CTV OTT/Widget/wgt-network-grid",
+  title: "Frequence/Widgets/wgt-network-grid",
   tags: ["autodocs"],
   render: ({ show_network_strength }) => {
     const data = networksData.default;

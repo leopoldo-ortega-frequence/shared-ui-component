@@ -1,8 +1,7 @@
 import { createWidget } from "../../../helper/renderEngine.js";
 
 export default {
-  title:
-    "Frequence/Addressable/Widgets/wgt-target-segments/Elements/elem-target-item",
+  title: "Frequence/Widgets/wgt-target-segments/Elements/elem-target-item",
   tags: ["autodocs"],
   render: ({ interest_name }) => {
     const props = {

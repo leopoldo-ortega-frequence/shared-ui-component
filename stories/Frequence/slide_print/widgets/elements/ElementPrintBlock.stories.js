@@ -1,7 +1,7 @@
 import { createWidget } from "../../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/Print/Widget/wgt-print-table/Elements/elem-print-block",
+  title: "Frequence/Widgets/wgt-print-table/Elements/elem-print-block",
   tags: ["autodocs"],
   render: ({ publication_name, budget_value, publication_details }) => {
     // convert the common values into an array of objects

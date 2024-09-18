@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/Custom Template List/Widgets/wgt-custom-bullets",
+  title: "Frequence/Widgets/wgt-custom-bullets",
   tags: ["autodocs"],
   render: ({ sample_input, text_size }) => {
     const props = {

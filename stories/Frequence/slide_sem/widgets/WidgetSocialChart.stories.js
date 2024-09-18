@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/SEM/Widgets/wgt-sem-chart",
+  title: "Frequence/wgt-sem-chart",
   tags: ["autodocs"],
   render: ({ widget_title, percent, clicks }) => {
     const props = {

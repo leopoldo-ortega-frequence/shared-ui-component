@@ -3,7 +3,7 @@ import { printPubData } from "../../../../../rfp/data/data.js";
 import { mutatePrintData } from "../../../helper/sbDataMutate.js";
 
 export default {
-  title: "Frequence/Print/Widget/wgt-print-table/Elements/elem-print-column",
+  title: "Frequence/Widgets/wgt-print-table/Elements/elem-print-column",
   tags: ["autodocs"],
   render: ({ budget_name, publication_count, show_long_text }) => {
     //* As this is for a single column, we only need the values for a single budget

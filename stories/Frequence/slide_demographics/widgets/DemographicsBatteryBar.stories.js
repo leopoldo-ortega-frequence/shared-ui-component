@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/Target Demographics/Widgets/wgt-demographics-chart",
+  title: "Frequence/Widgets/wgt-demographics-chart",
   tags: ["autodocs"],
   render: ({ population_value, label }) => {
     const props = {

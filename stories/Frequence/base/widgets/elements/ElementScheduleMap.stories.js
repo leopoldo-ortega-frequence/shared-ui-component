@@ -4,7 +4,7 @@ import { tvScheduleData } from "../../../../../rfp/data/data.js";
 import { dummyScheduleHeatMap } from "../../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Base/Widgets/wgt-schedule-chart/Elements/elem-schedule-map",
+  title: "Frequence/Widgets/wgt-schedule-chart/Elements/elem-schedule-map",
   tags: ["autodocs"],
   render: ({ strength_type }) => {
     //TODO, we need to get schedule and days

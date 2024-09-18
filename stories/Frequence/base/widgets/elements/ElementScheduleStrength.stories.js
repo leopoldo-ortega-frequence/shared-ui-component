@@ -6,8 +6,7 @@ import {
 } from "../../../../../rfp/js/assets.js";
 
 export default {
-  title:
-    "Frequence/Base/Widgets/wgt-schedule-chart/Elements/elem-schedule-strength",
+  title: "Frequence/Widgets/wgt-schedule-chart/Elements/elem-schedule-strength",
   tags: ["autodocs"],
   render: ({ icon, show_icon, strength }) => {
     return /*html*/ `

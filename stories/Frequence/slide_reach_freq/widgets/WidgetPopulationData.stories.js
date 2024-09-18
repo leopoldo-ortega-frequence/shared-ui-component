@@ -7,7 +7,7 @@ import {
 } from "../../../../rfp/js/assets.js";
 
 export default {
-  title: "Frequence/Reach & Frequency/Widgets/wgt-population-data",
+  title: "Frequence/Widgets/wgt-population-data",
   tags: ["autodocs"],
   render: ({ target_population, total_population }) => {
     const props = {

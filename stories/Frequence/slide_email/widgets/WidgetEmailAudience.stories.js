@@ -2,7 +2,7 @@ import { createWidget } from "../../helper/renderEngine.js";
 import { dummmyEmailPlaceholder } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Email/Widget/wgt-email-audience",
+  title: "Frequence/Widgets/wgt-email-audience",
   tags: ["autodocs"],
   render: ({ audience_count, list_title }) => {
     const props = {

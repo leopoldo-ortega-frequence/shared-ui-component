@@ -2,7 +2,7 @@ import { createWidget } from "../../helper/renderEngine.js";
 import { RFP_DATA } from "../../../../rfp/data/formatted_rfp_data.js";
 
 export default {
-  title: "Frequence/Base/Widgets/wgt-map",
+  title: "Frequence/Widgets/wgt-map",
   tags: ["autodocs"],
   render: ({ map, width }) => {
     let imgSrc;

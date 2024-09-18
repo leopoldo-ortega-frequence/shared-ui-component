@@ -6,7 +6,7 @@ import {
 } from "../../../../rfp/js/assets.js";
 
 export default {
-  title: "Frequence/Base/Widgets/wgt-data-callout",
+  title: "Frequence/Widgets/wgt-data-callout",
   tags: ["autodocs"],
   render: ({
     text_weight,

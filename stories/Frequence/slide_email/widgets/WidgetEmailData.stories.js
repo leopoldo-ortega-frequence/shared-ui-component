@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/Email/Widget/wgt-email-data",
+  title: "Frequence/Widgets/wgt-email-data",
   tags: ["autodocs"],
   render: ({ total_email_sends, available_inventory, location }) => {
     const props = {

@@ -2,7 +2,7 @@ import { createWidget } from "../../helper/renderEngine.js";
 import { placeolderBudgetData } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Budget/Widgets/wgt-budget-table",
+  title: "Frequence/Widgets/wgt-budget-table",
   tags: ["autodocs"],
   render: ({
     budget_name,

@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/Base/Widgets/wgt-battery-chart",
+  title: "Frequence/Widgets/wgt-battery-chart",
   tags: ["autodocs"],
   render: ({ widget_title, strength, label_left, label_right }) => {
     const props = {

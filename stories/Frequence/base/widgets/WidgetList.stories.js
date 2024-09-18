@@ -3,7 +3,7 @@ import { createWidget } from "../../helper/renderEngine.js";
 import { genericList } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Base/Widgets/wgt-list",
+  title: "Frequence/Widgets/wgt-list",
   tags: ["autodocs"],
   render: ({ text_size, spacing }) => {
     const props = {

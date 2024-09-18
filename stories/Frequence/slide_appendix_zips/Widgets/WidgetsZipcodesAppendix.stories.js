@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine";
 
 export default {
-  title: "Frequence/Appendix Zips/Widgets/wgt-zipcodes-appendix",
+  title: "Frequence/Widgets/wgt-zipcodes-appendix",
   tags: ["autodocs"],
   render: ({ zipcode_count }) => {
     const data = [...Array(zipcode_count).fill("#####")];

@@ -3,7 +3,7 @@ import { printPubData } from "../../../../rfp/data/data.js";
 import { mutatePrintData } from "../../helper/sbDataMutate.js";
 
 export default {
-  title: "Frequence/Print/Widget/wgt-print-table",
+  title: "Frequence/Widgets/wgt-print-table",
   tags: ["autodocs"],
   render: ({ data_set, show_long_text }) => {
     const printData = mutatePrintData(

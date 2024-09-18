@@ -1,5 +1,5 @@
 export default {
-  title: "Frequence/Base/Widgets/wgt-footer",
+  title: "Frequence/Widgets/wgt-footer",
   tags: ["autodocs"],
   render: ({ advertiser_name, proposal_name, date, page }) => {
     const options = { year: "numeric", month: "2-digit", day: "2-digit" };

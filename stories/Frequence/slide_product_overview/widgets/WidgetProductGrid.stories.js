@@ -3,7 +3,7 @@ import { overviewData } from "../../../../rfp/data/data.js";
 import { getProductIcon } from "../../../../rfp/js/assets.js";
 
 export default {
-  title: "Frequence/Product Overview/Widgets/wgt-product-grid",
+  title: "Frequence/Widgets/wgt-product-grid",
   tags: ["autodocs"],
   render: ({ product_count, extra_products }) => {
     const data = overviewData.products[product_count];

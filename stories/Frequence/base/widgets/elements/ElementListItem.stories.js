@@ -2,7 +2,7 @@ import { LIST_ICONS } from "../../../../../rfp/js/assets.js";
 import { createWidget } from "../../../helper/renderEngine.js";
 
 export default {
-  title: "Frequence/Base/Widgets/wgt-list/Elements/elem-list",
+  title: "Frequence/Widgets/wgt-list/Elements/elem-list",
   tags: ["autodocs"],
   render: ({ text, bullet_style, tier, text_size }) => {
     const props = {

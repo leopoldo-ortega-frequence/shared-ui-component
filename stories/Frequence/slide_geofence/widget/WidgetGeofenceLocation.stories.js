@@ -3,7 +3,7 @@ import { geofenceLocations } from "../../../../rfp/data/data.js";
 import { LIST_ICONS } from "../../../../rfp/js/assets.js";
 
 export default {
-  title: "Frequence/Geofence/Widget/wgt-geofence-location",
+  title: "Frequence/Widgets/wgt-geofence-location",
   tags: ["autodocs"],
   render: ({ extra_locations }) => {
     const data = [...Array(5).fill("location | lat, long | radius/polygon")];

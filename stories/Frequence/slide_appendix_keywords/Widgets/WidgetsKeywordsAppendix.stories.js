@@ -1,7 +1,7 @@
 import { createWidget } from "../../helper/renderEngine";
 
 export default {
-  title: "Frequence/Appendix Keywords/Widgets/wgt-keywords-appendix",
+  title: "Frequence/Widgets/wgt-keywords-appendix",
   tags: ["autodocs"],
   render: ({ keyword_count }) => {
     const data = [
