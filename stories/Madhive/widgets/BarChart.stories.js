@@ -16,6 +16,18 @@ export default {
 
 export const Default = {
   args: {
-    strength: 25,
+    strength: 50,
+  },
+};
+
+export const Weak = {
+  args: {
+    strength: 15,
+  },
+};
+
+export const Strong = {
+  args: {
+    strength: 80,
   },
 };

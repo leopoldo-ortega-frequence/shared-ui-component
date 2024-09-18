@@ -111,25 +111,25 @@ elem-schedule-data .elem-schedule-data .label {
 }
 
 /* Product Icon */
-/* * icon svg and element width need to be defined */
+/* * prod svg and element width need to be defined */
 elem-product-icon #product-icon.default {
   width: 125px;
 }
-elem-product-icon #product-icon.default .icon svg {
+elem-product-icon #product-icon.default .prod svg {
   width: 75px;
   height: 75px;
 }
 elem-product-icon #product-icon.large {
   width: 200px;
 }
-elem-product-icon #product-icon.large .icon svg {
+elem-product-icon #product-icon.large .prod svg {
   width: 150px;
   height: 150px;
 }
 elem-product-icon #product-icon.reduced {
   width: 95px;
 }
-elem-product-icon #product-icon.reduced .icon svg {
+elem-product-icon #product-icon.reduced .prod svg {
   width: 65px;
   height: 65px;
 }
@@ -140,18 +140,18 @@ elem-product-icon #product-icon.small .label {
 elem-product-icon #product-icon.small {
   width: 95px;
 }
-elem-product-icon #product-icon.small .icon svg {
+elem-product-icon #product-icon.small .prod svg {
   width: 60px;
   height: 60px;
 }
 elem-product-icon #product-icon.view-label {
   width: 100%;
 }
-elem-product-icon #product-icon.view-label .icon svg {
+elem-product-icon #product-icon.view-label .prod svg {
   width: 10px;
   height: 10px;
 }
-elem-product-icon #product-icon.list .icon svg {
+elem-product-icon #product-icon.list .prod svg {
   display: flex;
   align-items: baseline;
   gap: var(--scale-2-xl);
@@ -162,7 +162,7 @@ elem-product-icon #product-icon.list span.label {
   height: auto;
   text-align: left;
 }
-elem-product-icon #product-icon.list .icon svg * {
+elem-product-icon #product-icon.list .prod svg * {
   fill: var(--primary);
 }
 elem-product-icon #product-icon.list {
@@ -208,7 +208,7 @@ elem-product-icon #product-icon.view-label .icon {
   background-color: var(--primary);
   height: 10px;
 }
-elem-product-icon #product-icon.view-label .icon svg {
+elem-product-icon #product-icon.view-label .prod svg {
   display: none;
 }
 elem-product-icon #product-icon.list span.label {
@@ -246,7 +246,7 @@ elem-product-icon #product-icon.list span.label {
   align-items: center;
   justify-content: center;
 }
-.elem-daily-strength .basic-icon svg {
+.elem-daily-strength .basic-prod svg {
   width: 25px;
   height: 25px;
 }
@@ -682,7 +682,7 @@ wgt-data-callout .wgt-data-callout .demo-data {
 wgt-data-callout .wgt-data-callout.center {
   align-items: center;
 }
-wgt-data-callout .wgt-data-callout .basic-icon svg {
+wgt-data-callout .wgt-data-callout .basic-prod svg {
   width: 42px;
   height: 42px;
 }

@@ -5,7 +5,7 @@ import {
 } from "../../../../rfp/data/data.js";
 
 export default {
-  title: "Frequence/Target Geography/Widgets/wgt-target-geo-map",
+  title: "Frequence/Widgets/wgt-target-geo-map",
   tags: ["autodocs"],
   render: ({ location, zip_count, zip_name }) => {
     return createWidget("wgt-target-geo-map", {

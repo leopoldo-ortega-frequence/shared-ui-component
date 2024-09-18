@@ -18,3 +18,13 @@ export const Default = {
     btn_type: "default",
   },
 };
+export const Dark = {
+  args: {
+    btn_type: "dark",
+  },
+};
+export const Light = {
+  args: {
+    btn_type: "light",
+  },
+};

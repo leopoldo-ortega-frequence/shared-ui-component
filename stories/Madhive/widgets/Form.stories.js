@@ -1,7 +1,7 @@
 export default {
   title: "Madhive/Widgets/Form",
   tags: ["autodocs"],
-  render: () => {
+  render: ({ form_type }) => {
     // const props = {
     //   title: widget_title,
     //   list: data,
@@ -13,6 +13,43 @@ export default {
           <input class="input" type="text" placeholder="Text input" />
         </div>
       </div>
+
+      ${form_type === "file uploader"
+        ? /*HTML*/ `
+        
+        <div class="file">
+        <label class="file-label">
+            <input class="file-input" type="file" name="resume" />
+            <span class="file-cta">
+            <span class="file-icon">
+                <i class="fas fa-upload"></i>
+            </span>
+            <span class="file-label"> Choose a file… </span>
+            </span>
+        </label>
+        </div>
+
+        `
+        : ""}
+      ${form_type === "long"
+        ? /*HTML*/ `
+            
+            <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Text input" />
+            </div>
+          </div>
+
+          <div class="field">
+        <label class="label">Phone Number</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Text input" />
+        </div>
+      </div>
+    
+            `
+        : ""}
 
       <div class="field">
         <label class="label">Notes</label>
@@ -40,9 +77,26 @@ export default {
       </div>`;
     // return div.innerHTML;
   },
-  argTypes: {},
+  argTypes: {
+    form_type: {
+      control: { type: "select" },
+      options: ["default", "file uploader", "long"],
+    },
+  },
 };
 
 export const Default = {
   args: {},
+};
+
+export const LongForm = {
+  args: {
+    form_type: "long",
+  },
+};
+
+export const FileUpload = {
+  args: {
+    form_type: "file uploader",
+  },
 };

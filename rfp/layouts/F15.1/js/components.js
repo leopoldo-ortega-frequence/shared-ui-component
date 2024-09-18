@@ -97,7 +97,7 @@ class ElementProductIcon extends BaseWidget {
   get template() {
     return /*html*/ `
           <div id="product-icon" class="${this.type}">
-              <div class="icon">
+              <div class="_icon">
                   ${this.icon}
               </div>
               <span class="label">${this.name}</span>
@@ -308,7 +308,6 @@ class ElementScheduleData extends BaseWidget {
       `;
   }
 }
-
 
 class ElementScheduleStrength extends BaseWidget {
   set data(props) {
@@ -1735,60 +1734,60 @@ customElements.define("wgt-schedule-radio", WidgetScheduleRadio);
 /*---------------------------*/
 
 // Element Constants
-const ELEM_NETWORK_LOGO = 'elem-network-logo';
-const ELEM_PRODUCT_ICON = 'elem-product-icon';
-const ELEM_IMAGE = 'elem-image';
-const WGT_IMAGE = 'wgt-image';
-const ELEM_LIST_ITEM = 'elem-list-item';
-const ELEM_GEOFENCE_COUNT = 'elem-geofence-count';
-const ELEM_TARGET_ITEM = 'elem-target-item';
-const ELEM_SCHEDULE_DATA = 'elem-schedule-data';
-const ELEM_SCHEDULE_STRENGTH = 'elem-schedule-strength';
-const ELEM_SCHEDULE_TABLE = 'elem-schedule-table';
-const ELEM_SCHEDULE_TIME_BLOCK = 'elem-schedule-time-block';
-const ELEM_BUBBLE_CALLOUT = 'elem-bubble-callout';
-const ELEM_PRODUCT_LIST = 'elem-product-list';
-const ELEM_PRINT_BLOCK = 'elem-print-block';
-const ELEM_PRINT_COLUMN = 'elem-print-column';
-const ELEM_TARGET_GROUP = 'elem-target-group';
-const ELEM_BUDGET_ROW = 'elem-budget-row';
+const ELEM_NETWORK_LOGO = "elem-network-logo";
+const ELEM_PRODUCT_ICON = "elem-product-icon";
+const ELEM_IMAGE = "elem-image";
+const WGT_IMAGE = "wgt-image";
+const ELEM_LIST_ITEM = "elem-list-item";
+const ELEM_GEOFENCE_COUNT = "elem-geofence-count";
+const ELEM_TARGET_ITEM = "elem-target-item";
+const ELEM_SCHEDULE_DATA = "elem-schedule-data";
+const ELEM_SCHEDULE_STRENGTH = "elem-schedule-strength";
+const ELEM_SCHEDULE_TABLE = "elem-schedule-table";
+const ELEM_SCHEDULE_TIME_BLOCK = "elem-schedule-time-block";
+const ELEM_BUBBLE_CALLOUT = "elem-bubble-callout";
+const ELEM_PRODUCT_LIST = "elem-product-list";
+const ELEM_PRINT_BLOCK = "elem-print-block";
+const ELEM_PRINT_COLUMN = "elem-print-column";
+const ELEM_TARGET_GROUP = "elem-target-group";
+const ELEM_BUDGET_ROW = "elem-budget-row";
 
 // Widget Constants
-const WGT_HEADER = 'wgt-header';
-const WGT_FOOTER = 'wgt-footer';
-const WGT_DATA_CALLOUT = 'wgt-data-callout';
-const WGT_LIST = 'wgt-list';
-const WGT_BATTERY_CHART = 'wgt-battery-chart';
-const WGT_PRODUCT_GRID = 'wgt-product-grid';
-const WGT_TARGET_DEMO = 'wgt-target-demo';
-const WGT_GEO_LOCATIONS = 'wgt-geo-locations';
-const WGT_NETWORK_GRID = 'wgt-network-grid';
-const WGT_TARGET_INTERESTS = 'wgt-target-interests';
-const WGT_TARGET_SEGMENTS = 'wgt-target-segments';
-const WGT_SCHEDULE_CHART = 'wgt-schedule-chart';
-const WGT_BUBBLE_GROUP = 'wgt-bubble-group';
-const WGT_PRINT_TABLE = 'wgt-print-table';
-const WGT_BUDGET = 'wgt-budget';
-const WGT_GEO_DATA = 'wgt-geo-data';
-const WGT_MAP = 'wgt-map';
-const WGT_POPULATION_DATA = 'wgt-population-data';
-const WGT_EMAIL_AUDIENCE = 'wgt-email-audience';
-const WGT_BUDGET_TABLE = 'wgt-budget-table';
+const WGT_HEADER = "wgt-header";
+const WGT_FOOTER = "wgt-footer";
+const WGT_DATA_CALLOUT = "wgt-data-callout";
+const WGT_LIST = "wgt-list";
+const WGT_BATTERY_CHART = "wgt-battery-chart";
+const WGT_PRODUCT_GRID = "wgt-product-grid";
+const WGT_TARGET_DEMO = "wgt-target-demo";
+const WGT_GEO_LOCATIONS = "wgt-geo-locations";
+const WGT_NETWORK_GRID = "wgt-network-grid";
+const WGT_TARGET_INTERESTS = "wgt-target-interests";
+const WGT_TARGET_SEGMENTS = "wgt-target-segments";
+const WGT_SCHEDULE_CHART = "wgt-schedule-chart";
+const WGT_BUBBLE_GROUP = "wgt-bubble-group";
+const WGT_PRINT_TABLE = "wgt-print-table";
+const WGT_BUDGET = "wgt-budget";
+const WGT_GEO_DATA = "wgt-geo-data";
+const WGT_MAP = "wgt-map";
+const WGT_POPULATION_DATA = "wgt-population-data";
+const WGT_EMAIL_AUDIENCE = "wgt-email-audience";
+const WGT_BUDGET_TABLE = "wgt-budget-table";
 
 // Preset Widget Constants
-const WGT_TARGET_GEO_DATA = 'wgt-target-geo-data';
-const WGT_TARGET_GEO_MAP = 'wgt-target-geo-map';
-const WGT_DEMOGRAPHICS_CHART = 'wgt-demographics-chart';
-const WGT_REACH_FREQUENCY = 'wgt-reach-frequency';
-const WGT_SOCIAL_CHART = 'wgt-social-chart';
-const WGT_SEM_CHART = 'wgt-sem-chart';
-const WGT_EMAIL_DATA = 'wgt-email-data';
-const WGT_EMAIL_INCLUDES = 'wgt-email-includes';
-const WGT_EMAIL_EXCLUDES = 'wgt-email-excludes';
-const WGT_CUSTOM_BULLETS = 'wgt-custom-bullets';
-const WGT_KEYWORDS_APPENDIX = 'wgt-keywords-appendix';
-const WGT_ZIPCODES_APPENDIX = 'wgt-zipcodes-appendix';
-const WGT_GEO_APPENDIX = 'wgt-geo-appendix';
-const WGT_WEBSITES_APPENDIX = 'wgt-websites-appendix';
-const WGT_SCHEDULE_TV = 'wgt-schedule-tv';
-const WGT_SCHEDULE_RADIO = 'wgt-schedule-radio';
+const WGT_TARGET_GEO_DATA = "wgt-target-geo-data";
+const WGT_TARGET_GEO_MAP = "wgt-target-geo-map";
+const WGT_DEMOGRAPHICS_CHART = "wgt-demographics-chart";
+const WGT_REACH_FREQUENCY = "wgt-reach-frequency";
+const WGT_SOCIAL_CHART = "wgt-social-chart";
+const WGT_SEM_CHART = "wgt-sem-chart";
+const WGT_EMAIL_DATA = "wgt-email-data";
+const WGT_EMAIL_INCLUDES = "wgt-email-includes";
+const WGT_EMAIL_EXCLUDES = "wgt-email-excludes";
+const WGT_CUSTOM_BULLETS = "wgt-custom-bullets";
+const WGT_KEYWORDS_APPENDIX = "wgt-keywords-appendix";
+const WGT_ZIPCODES_APPENDIX = "wgt-zipcodes-appendix";
+const WGT_GEO_APPENDIX = "wgt-geo-appendix";
+const WGT_WEBSITES_APPENDIX = "wgt-websites-appendix";
+const WGT_SCHEDULE_TV = "wgt-schedule-tv";
+const WGT_SCHEDULE_RADIO = "wgt-schedule-radio";

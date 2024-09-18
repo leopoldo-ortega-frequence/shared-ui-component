@@ -23,3 +23,27 @@ export const Default = {
     tag_type: "default",
   },
 };
+
+export const Primary = {
+  args: {
+    tag_type: "info",
+  },
+};
+
+export const Dark = {
+  args: {
+    tag_type: "dark",
+  },
+};
+
+export const Danger = {
+  args: {
+    tag_type: "danger",
+  },
+};
+
+export const Warning = {
+  args: {
+    tag_type: "warning",
+  },
+};

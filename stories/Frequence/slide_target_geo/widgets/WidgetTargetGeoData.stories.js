@@ -3,7 +3,7 @@ import { targetGeo } from "../../../../rfp/data/data.js";
 import { DEMO_ICONS } from "../../../../rfp/js/assets.js";
 
 export default {
-  title: "Frequence/Target Geography/Widgets/wgt-target-geo-data",
+  title: "Frequence/Widgets/wgt-target-geo-data",
   tags: ["autodocs"],
   render: ({
     population,
